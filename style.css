@@ -1,0 +1,21 @@
+body {
+	/* c */
+	color: #333;
+}
+
+.post {
+	/* mb1em 擠出空間，讓post之間不要擠在一起 */
+	margin-bottom: 1em;
+	/* p1em 內部空間，不要讓文字貼在邊線上 */
+	padding: 0 1em;
+	/* bd+ 外部框線 */
+	border: 1px solid #000;
+	/* bdrs1em 圓角 */
+	border-radius: 1em;
+}
+
+.field {
+	color: #eee;
+	/* bgc */
+	background-color: #333;
+}
