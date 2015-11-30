@@ -5,6 +5,15 @@ body {
 	font-family: sans-serif;
 }
 
+form {
+	padding: 1em;
+}
+
+form > div {
+	/*mb1em*/
+	margin-bottom: 1em;
+}
+
 .post {
 	/* mb1em 擠出空間，讓post之間不要擠在一起 */
 	margin-bottom: 1em;
