@@ -1,6 +1,8 @@
 body {
 	/* c */
 	color: #333;
+	/* ff:ss */
+	font-family: sans-serif;
 }
 
 .post {
@@ -18,4 +20,6 @@ body {
 	color: #eee;
 	/* bgc */
 	background-color: #333;
+	/* p0.2em */
+	padding: 0.2em;
 }
