@@ -27,36 +27,17 @@
 			<input type="submit" value="送出留言">
 		</div>
 	</form>
-
+%for post in posts:
 	<div class="post">
 		<p>
 			<span class="field">作者</span>
-			Inndy
+			{{post['author']}}
 		</p>
 		<p>
 			<span class="field">訊息</span>
-			Hello, World
+			{{post['message']}}
 		</p>
 	</div>
-	<div class="post">
-		<p>
-			<span class="field">作者</span>
-			Inndy
-		</p>
-		<p>
-			<span class="field">訊息</span>
-			Hello, World
-		</p>
-	</div>
-	<div class="post">
-		<p>
-			<span class="field">作者</span>
-			Inndy
-		</p>
-		<p>
-			<span class="field">訊息</span>
-			Hello, World
-		</p>
-	</div>
+%end
 </body>
 </html>
